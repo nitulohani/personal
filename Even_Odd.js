@@ -1,7 +1,7 @@
 // program to check if the number is even or odd
 // take input from the user
-//let number = prompt("Enter a number: ");
-const number = 20;
+const prompt = require('prompt-sync')();
+let number = prompt("Enter a number: ");
 
 //check if the number is even
 if (number % 2 === 0) {
