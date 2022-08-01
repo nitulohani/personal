@@ -1,0 +1,13 @@
+// take input from the user
+//const prompt = require('prompt-sync')();
+let  text = "hello";
+
+function reverse(str){
+    let reversed = "";
+    for (let i = str.length - 1; i >= 0; i--){
+        reversed += str[i];
+    }
+    return reversed;
+}
+let reversed=reverse(text);
+console.log("Reversed text is :"+reversed);
